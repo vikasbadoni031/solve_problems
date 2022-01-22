@@ -8,4 +8,5 @@ def isPalindrome(x):
         if list1[i] != list1[len_list-i-1]:
             return False
     return True
+
 print(isPalindrome(121))
